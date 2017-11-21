@@ -1,0 +1,6 @@
+<%= form_for(@task) do |f| %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <%= f.submit %>
+  <%= link_to "Home", root_path %>
+<% end %>
